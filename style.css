@@ -1,0 +1,104 @@
+body{
+    background-color: rgb(231, 231, 231);
+    font-family:'Lucida Sans';
+    text-align: center;
+    color: brown;
+}
+header{
+    background-color: rgb(136, 154, 172);
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+    font-weight: bolder;
+    text-shadow: 3px 3px rgb(10, 10, 10) ;
+}
+section{
+    margin:20px auto;
+    padding: 20px;
+    max-width: 600px;
+    border: 1px solid rgb(1, 18, 73);
+    border-radius: 5px;
+    color:rgb(49, 88, 139);
+    max-width: 700px;
+    font-size: 18px;
+    background-color: rgb(204, 212, 221);
+}
+section h2{
+    color: rgb(7, 9, 139);
+    font-size:25px;
+
+}
+section p {
+    color: rgb(69, 113, 151);
+    font-size: 20px;
+    
+}
+ul {
+    list-style-type: square;
+    text-align: left;
+}
+li{
+    font-size: 25px;
+    color: rgb(1, 11, 34);
+    
+}
+footer{
+    margin-top: 15px;
+    font-size: 20px;
+    background-color: rgb(136, 154, 172);
+    padding: 8px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+footer p {
+    font-size: 20px;
+    font-weight: bold;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+
+
+table{
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse; 
+    background-color: #fff;
+    border: 1px solid #d4af37;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    
+  }
+  thead {
+    background-color: #d4af37; 
+    color: white;
+  }
+  thead th {
+    padding: 15px;
+    font-size: 1.1em;
+    border: 1px solid #b8860b;
+    /*text-transform: uppercase;*/
+  }
+  /* Estilo para as células da tabela */
+  tbody td {
+    padding: 12px;
+    border: 1px solid #d4af37;
+    text-align: center;
+    font-size: 1em;
+  }
+  /* Alternar cores para linhas */
+  tbody tr:nth-child(odd) {
+    background-color: #fffaf0; /* Tom claro */
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #fdf5e6; /* Outra variação */
+  }
+  
+  /* Profa Luciane 20:35 */
+  /* Alteração ao passar o mouse sobre a linha */
+  tbody tr:hover {
+    background-color: #f4e2c7;
+    cursor:pointer;
+  }
+
