@@ -1,72 +1,43 @@
-    <!DOCTYPE html>
-    <html lang="pt-br">
-        <head>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>Aula css</title>
-            <link rel="stylesheet" href="style.css">
-        </head>
-        <body>
-             <header>
-                 <h1>Bem-vindo ao Mundo da Cerveja</h1>
-             </header>   
-             <main>
-                <section>
-                  <h2>Sobre a Cerveja</h2>
-                  <p>A cerveja é uma das bebidas mais antigas e populares do mundo. Feita a partir de malte, lúpulo, água e fermento, ela é apreciada em diversas culturas e oferece uma grande variedade de estilos e sabores.</p>
-                </section>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>meu perfil</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Conexão com o CSS externo --> 
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo ao Meu Perfil</h1>
+    </header>
+    <main>
+        <section class="profile-section">
+            <img src="WhatsApp Image 2024-12-06 at 20.33.14.jpeg" alt="Foto do perfil" class="profile-img">
+            <h2>Alexandre Henrique dos Santos</h2>
+            <p>Sou um estudante de analise e desenvolvimento de sistemas quero aprender mais sobre programaçao 
+             focado em aprender  para entrar no mercado de trabalho e ganhar experiencia   
                 
-                <section>
-                  <h2>Tipos de Cerveja</h2>
-                  <ul>
-                    <li>Pilsen</li>
-                    <li>IPA (India Pale Ale)</li>
-                    <li>Stout</li>
-                    <li>Weissbier</li>
-                  </ul>
-                                         
-                </section>
-                
-                <table>
-                    <thead>
-                      <tr>
-                        <th>Tipo</th>
-                        <th>Origem</th>
-                        <th>Teor Alcoólico</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td>Pilsen</td>
-                        <td>República Tcheca</td>
-                        <td>4% - 5%</td>
-                      </tr>
-                      <tr>
-                        <td>IPA</td>
-                        <td>Inglaterra</td>
-                        <td>5% - 7%</td>
-                      </tr>
-                      <tr>
-                        <td>Stout</td>
-                        <td>Irlanda</td>
-                        <td>5% - 8%</td>
-                      </tr>
-                      <tr>
-                        <td>Weissbier</td>
-                        <td>Alemanha</td>
-                        <td>4% - 5.5%</td>
-                      </tr>
-                    </tbody>
-                  </table>
-
-                <section>
-                  <h2>Curiosidade</h2>
-                  <p>Sabia que a cerveja IPA foi criada para suportar longas viagens marítimas devido à adição extra de lúpulo?</p>
-                </section>
-                
-                <footer>
-                  <p>Aprenda mais sobre cerveja em nosso <a href="https://cerveja.com" target="_blank">site oficial</a></p>
-                </footer>
-              </main>
-        </body>
-    </html>
+            </p>
+        </section>
+        <section class="hobbies-section">
+            <h3>Meus Hobbies</h3>
+            <ul>
+                <li>Ler livros de poemas</li>
+                <li>assitir palestras de filosofos</li>
+                <li>jogar futebol</li>
+            </ul>
+        </section>
+        <section class="contact-section">
+            <h3>Conecte-se Comigo</h3>
+            
+            <a href="https://github.com/alexandreSantos21" target="_blank">GitHub</a>
+        </section>
+        <br>
+        <button id="surprise-btn">Clique para ver uma frase!</button>
+    </main>
+    <footer>
+        <p>&copy; 2024 alexandre H santos.criador da pagina</p>
+    </footer>
+    <script src="script.js"></script> <!-- Conexão com o JavaScript externo -->
+</body>
+</html>
